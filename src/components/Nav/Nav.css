@@ -1,0 +1,35 @@
+nav{
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: end;
+    padding: 30px 60px 25px 60px;
+    gap: 50px;
+    background-color: #ddc151
+}
+nav *{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 5px;
+}
+nav *:hover{border-bottom: 3px solid white}
+.defaultLink{
+    border-bottom: 1px solid transparent;
+}
+.activeLink{
+    border-bottom: 1px solid white;
+}
+nav button{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    padding: 0 0 5px 0;
+    border-radius: 0;
+    background-color: transparent
+
+}
+button:hover{background-color: transparent; cursor:pointer;}
+button:active{background-color: transparent}

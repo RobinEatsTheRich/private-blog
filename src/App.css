@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.pageContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+button{
+  padding: 20px;
+  background-color: #ddc151;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+button:hover{background-color: #e0d467}
+button:active{background-color: #f8f8e1;color:#ddc151}
